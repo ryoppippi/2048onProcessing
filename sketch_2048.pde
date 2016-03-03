@@ -303,12 +303,8 @@ void mousePressed() {
 boolean gameOverOrNot(){
     for(int i=0;i<4;i++){
         for(int j=0;j<3;j++){
-            if( numbers[i][j]==0 || numbers[j][i]==0 ||numbers[i][j+1]==0 ||numbers[j+1][i]==0){
-                if(numbers[i][j]==numbers[i][j+1]){
-                    if(numbers[j][i]==numbers[j+1][i]){
-                        return false;
-                    }
-                }
+            if( numbers[i][j]==0 || numbers[j][i]==0 ||numbers[i][j+1]==0 ||numbers[j+1][i]==0 || numbers[i][j]==numbers[i][j+1] || numbers[j][i]==numbers[j+1][i]){
+                return false;
             }
         }
     }
