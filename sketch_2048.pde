@@ -301,10 +301,14 @@ void mousePressed() {
 }
 
 boolean gameOverOrNot(){
-    for(int i=0;i<3;i++){
+    for(int i=0;i<4;i++){
         for(int j=0;j<3;j++){
-            if(numbers[i][j]==0 || numbers[i][j+1]==0 ||numbers[i+1][j]==0 || numbers[i][j]==numbers[i+1][j] || numbers[i][j]==numbers[i][j+1]){
-                return false;
+            if( numbers[i][j]==0 || numbers[j][i]==0 ||numbers[i][j+1]==0 ||numbers[j+1][i]==0){
+                if(numbers[i][j]==numbers[i][j+1]){
+                    if(numbers[j][i]==numbers[j+1][i]){
+                        return false;
+                    }
+                }
             }
         }
     }
