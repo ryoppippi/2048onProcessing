@@ -9,5 +9,8 @@
 * You can download Mac, Windows, Linux version from <a href="https://drive.google.com/open?id=0B-t3HBYq7YB4bkl0RXRoaEFNWkU">here</a>. 
 * Enjoy!
 
+## for Mac User
+
+*Please check "Anywhere" in the Gatekeeper setting. Please check <a href="https://support.apple.com/en-us/HT202491">here</a>.
 ---
 Powerd by @ryoppippi
