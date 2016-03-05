@@ -11,6 +11,7 @@
 
 ## For Mac User
 
-Please check "Anywhere" in the Gatekeeper setting. Please check <a href="https://support.apple.com/en-us/HT202491">here</a>.
+Please check "Anywhere" in the Gatekeeper setting. More information is  <a href="https://support.apple.com/en-us/HT202491">here</a>.
+
 ---
 Powerd by @ryoppippi
